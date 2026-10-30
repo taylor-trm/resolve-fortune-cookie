@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#330011">
+  <meta name="description" content="Crack open a fortune cookie from TRM Academy at Resolve.">
+  <title>Fortune Cookies · Resolve</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://taylor-trm.github.io/resolve-fortune-cookie/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Resolve · TRM Academy">
+  <meta property="og:title" content="Fortune Cookies · Resolve">
+  <meta property="og:description" content="Crack open a fortune cookie from TRM Academy at Resolve.">
+  <meta property="og:url" content="https://taylor-trm.github.io/resolve-fortune-cookie/">
+  <meta property="og:image" content="https://taylor-trm.github.io/resolve-fortune-cookie/social-preview.png">
+  <meta property="og:image:secure_url" content="https://taylor-trm.github.io/resolve-fortune-cookie/social-preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A fortune cookie beneath the Resolve wordmark on a plum background with pink accents.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fortune Cookies · Resolve">
+  <meta name="twitter:description" content="Crack open a fortune cookie from TRM Academy at Resolve.">
+  <meta name="twitter:image" content="https://taylor-trm.github.io/resolve-fortune-cookie/social-preview.png">
+  <meta name="twitter:image:alt" content="A fortune cookie beneath the Resolve wordmark on a plum background with pink accents.">
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="Resolve fortune cookies home"><img src="assets/resolve.png" alt="TRM"><span class="brand-divider"></span><img class="resolve-wordmark" src="assets/resolve-wordmark.png" alt="Resolve"></a>
+  </header>
+  <main>
+    <div class="intro"><h1>Your future looks<br><em>well connected.</em></h1></div>
+    <section class="experience" aria-label="Fortune cookie">
+      <div class="halo" aria-hidden="true"></div><div class="spark spark-one" aria-hidden="true">✦</div><div class="spark spark-two" aria-hidden="true">✧</div>
+      <button class="cookie-button" id="cookieButton" aria-label="Crack open your fortune cookie">
+        <span class="cookie-art" aria-hidden="true"><img class="cookie-half cookie-left" src="assets/fortune-cookie.png" alt=""><img class="cookie-half cookie-right" src="assets/fortune-cookie.png" alt=""></span>
+      </button>
+      <article class="fortune-slip" id="fortuneSlip" aria-live="polite" aria-atomic="true" hidden><div class="slip-top"><span id="fortuneNumber"></span><span aria-hidden="true">✦</span><span class="slip-wordmark" role="img" aria-label="Resolve"></span></div><p id="fortuneText"></p></article>
+      <div class="crumbs" id="crumbs" aria-hidden="true"></div>
+    </section>
+    <div class="controls"><button class="primary" id="crackButton">Crack your cookie <span aria-hidden="true">↗</span></button><p class="under-button" id="underButton">Go on. You’re one smart cookie.</p></div>
+  </main>
+  <footer><span>A small treat from <strong>TRM Academy</strong></span><span>ZERO CALORIES. GENEROUS PORTIONS OF PUNS.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
